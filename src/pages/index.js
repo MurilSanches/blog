@@ -1,11 +1,13 @@
-import Menu from 'components/Menu'
+import Login from './auth/Login'
+import MusicItem from './music/MusicItem'
 
-const Home = () => {
+const App = () => {
   return (
-    <div className="container">
-      <Menu />
-    </div>
+    <div>
+      <Login />
+      <MusicItem />
+    </div>  
   )
 }
 
-export default Home
+export default App
